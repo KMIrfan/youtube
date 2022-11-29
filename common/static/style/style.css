@@ -266,5 +266,33 @@ body::-webkit-scrollbar {
     border-radius:40px;
     top: 15px;
  }
+
+ /* Shorts */
+
+ .shorts_main{
+    height: auto;
+    width: 700px;
+    left: 400px;
+    position: absolute;
+    top: 120px;
+    display: grid;
+    grid-template-columns: auto ;
+    grid-template-rows: auto auto;
+    column-gap: 15px;
+    row-gap: 50px;
+    padding: 20px;
+  
+    justify-content: center;
+}
+.shortcont{
+    width: auto;
+    height: auto;
+    
+
+}
+.shorts_video{
+    height: 500px;
+    width: 200px;
+}
  
  
