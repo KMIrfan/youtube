@@ -14,6 +14,7 @@
  <!-- Header Section -->
 <div class="container">
     <div class="header">
+        <div class="menu"><img src="{% static 'images/menu.png' %} " height="17px" width="20px"></div>
         <div class="logo">
             <img src="{% static 'images/logo.jpg' %}" height="50px" width="100px">
         </div>
@@ -52,6 +53,7 @@
             <a href=""> <div class="top-bar-flx">Universities</div></a>
             <a href=""> <div class="top-bar-flx">Teams</div></a>
             <a href=""> <div class="top-bar-flx">Football</div></a>
+            <a href=""> <div class="top-bar-flx">Live</div></a>
         </div>
     </div>
 
@@ -60,9 +62,9 @@
         <div class="container-wrapper">
            <div class="side-bar">
 
-           <a href=""><div class="side"><img src="{% static 'images/home.png' %}" height="25px" width="25px" style="position: relative;top: 4px;">
+           <a href=""><div class="side" style=" background-color: rgb(238, 236, 235);"><img src="{% static 'images/home.png' %}" height="25px" width="25px" style="position: relative;top: 4px;">
             <h3>Home</h3></div></a>
-            <a href=""><div class="side"><img src="{% static 'images/shorts.png' %}" height="25px" width="25px" style="position: relative;top: 4px;">
+            <a href="{% url 'common:shorts' %}"><div class="side"><img src="{% static 'images/shorts.png' %}" height="25px" width="25px" style="position: relative;top: 4px;">
             <h3>Shorts</h3></div></a>
             <a href=""> <div class="side"><img src="{% static 'images/subscribe.png' %}" height="25px" width="25px" style="position: relative;top: 4px;">
             <h3>Subscriptions</h3></div></a>
