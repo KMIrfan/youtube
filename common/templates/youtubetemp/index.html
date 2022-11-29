@@ -1,0 +1,174 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link rel="stylesheet" href="{% static 'style/style.css' %}">
+    </head>
+<body>
+ <!-- Header Section -->
+<div class="container">
+    <div class="header">
+        <div class="logo">
+            <img src="{% static 'images/logo.jpg' %}" height="50px" width="100px">
+        </div>
+        <div class="search">
+            <form>
+                <input type="text" placeholder="Search" 
+                style="width: 580px; height: 40px; border-radius: 50px; position: relative; top:10px; border: 1px solid rgb(214, 209, 209);">
+            </form>
+        </div>
+        <div class="mic">
+            <img src="{% static 'images/mic.png' %}" height="20px" width="20px" style="position: relative; top: 8px;">
+        </div>
+        <div class="notification">
+            <div class="notification_round">
+                <img src="{% static 'images/add-video.png' %}" height="25px" width="25px" style="position: relative; top: 8px;">
+            </div>
+            <div class="notification_round">
+                <img src="{% static 'images/bell.png' %}" height="25px" width="25px" style="position: relative; top: 8px;">
+            </div>
+            <div class="notification_round">
+                <img src="{% static 'images/account.webp' %}" height="30px" width="30px" style="position: relative; border-radius:40px ;top: 4px;">
+            </div>
+        </div>
+    </div>
+
+    <!-- main Part -->
+    <section>
+        <div class="container-wrapper">
+           <div class="side-bar">
+
+           <div class="side"><img src="{% static 'images/home.png' %}" height="25px" width="25px" style="position: relative;top: 4px;">
+            <h3>Home</h3></div>
+           <div class="side"><img src="{% static 'images/shorts.png' %}" height="25px" width="25px" style="position: relative;top: 4px;">
+            <h3>Shorts</h3></div>
+           <div class="side"><img src="{% static 'images/subscribe.png' %}" height="25px" width="25px" style="position: relative;top: 4px;">
+            <h3>Subscriptions</h3></div>
+           <div class="line"></div>
+           <div class="side"><img src="{% static 'images/2481186-200.png' %}" height="25px" width="25px" style="position: relative;top: 4px;">
+            <h3>Library</h3></div>
+           <div class="side"><img src="{% static 'images/history.png' %}" height="25px" width="25px" style="position: relative;top: 4px;">
+            <h3>History</h3></div>
+           <div class="side"><img src="{% static 'images/youtube.png' %}" height="25px" width="25px" style="position: relative;top: 4px;">
+            <h3>Your Videos</h3></div>
+            <div class="side"><img src="{% static 'images/watch-later-.webp' %}" height="25px" width="25px" style="position: relative;top: 4px;">
+                <h3>Watch Later</h3></div>
+            <div class="side"><img src="{% static 'images/like.png' %}" height="25px" width="25px" style="position: relative;top: 4px;">
+                <h3>Liked Videos</h3></div>    
+            <div class="side"><img src="{% static 'images/down-arrow.png' %}" height="25px" width="25px" style="position: relative;top: 4px;">
+                <h3>Show More</h3></div>        
+          
+
+           </div>
+
+           <div class="top-bar">
+            <div class="top-bar-flx">All</div>
+            <div class="top-bar-flx">Music</div>
+            <div class="top-bar-flx">FIFA</div>
+            <div class="top-bar-flx">Tamil Cinemas</div>
+            <div class="top-bar-flx">Mixes</div>
+            <div class="top-bar-flx">Gaming</div>
+            <div class="top-bar-flx">Bollywood Musics</div>
+            <div class="top-bar-flx">Motor Cycles</div>
+            <div class="top-bar-flx">Sports</div>
+            <div class="top-bar-flx">Universities</div>
+            <div class="top-bar-flx">Teams</div>
+            <div class="top-bar-flx">Football</div>
+           </div>
+           <div class="main">
+                <div class="vid">
+                    <img src="{% static 'images/python.png' %}" width="250" height="150" style="border-radius: 15px;">
+                    <div class="vdcontent">
+                        <div><img src="{% static 'images/account.webp' %}" height="30px" width="30px" style="position: relative; border-radius:40px ;top: 15px;"></div>
+                     <div> <h4>The Hic Song Full Video</h4>
+                      <p>Viacom 18 sports
+                        <br>517k views 5 days ago
+                      </p></div>
+                    </div>
+                </div>
+                <div class="vid">
+                    <img src="{% static 'images/problems.png' %}" width="250" height="150" style="border-radius: 15px;">
+                    <div class="vdcontent">
+                        <div><img src="{% static 'images/account.webp' %}" height="30px" width="30px" style="position: relative; border-radius:40px ;top: 15px;"></div>
+                     <div> <h4>The Hic Song Full Video</h4>
+                      <p>Viacom 18 sports
+                        <br>517k views 5 days ago
+                      </p></div>
+                    </div>
+                </div>
+                <div class="vid">
+                    <img src="{% static 'images/free.png' %}" width="250" height="150" style="border-radius: 15px;">
+                    <div class="vdcontent">
+                        <div><img src="{% static 'images/account.webp' %}" height="30px" width="30px" style="position: relative; border-radius:40px ;top: 15px;"></div>
+                     <div> <h4>The Hic Song Full Video</h4>
+                      <p>Viacom 18 sports
+                        <br>517k views 5 days ago
+                      </p></div>
+                    </div>
+                </div>
+                <div class="vid">
+                    <img src="{% static 'images/dal lake.png' %}" width="250" height="150" style="border-radius: 15px;">
+                    <div class="vdcontent">
+                        <div><img src="{% static 'images/account.webp' %}" height="30px" width="30px" style="position: relative; border-radius:40px ;top: 15px;"></div>
+                     <div> <h4>The Hic Song Full Video</h4>
+                      <p>Viacom 18 sports
+                        <br>517k views 5 days ago
+                      </p></div>
+                    </div>
+                </div>
+                <div class="vid">
+                    <img src="{% static 'images/marginal.png' %}" width="250" height="150" style="border-radius: 15px;">
+                    <div class="vdcontent">
+                        <div><img src="{% static 'images/account.webp' %}" height="30px" width="30px" style="position: relative; border-radius:40px ;top: 15px;"></div>
+                     <div> <h4>The Hic Song Full Video</h4>
+                      <p>Viacom 18 sports
+                        <br>517k views 5 days ago
+                      </p></div>
+                    </div>
+                </div>
+                <div class="vid">
+                    <img src="{% static 'images/am.png' %}" width="250" height="150" style="border-radius: 15px;">
+                    <div class="vdcontent">
+                        <div><img src="{% static 'images/account.webp' %}" height="30px" width="30px" style="position: relative; border-radius:40px ;top: 15px;"></div>
+                     <div> <h4>The Hic Song Full Video</h4>
+                      <p>Viacom 18 sports
+                        <br>517k views 5 days ago
+                      </p></div>
+                    </div>
+                </div>
+                <div class="vid">
+                    <img src="{% static 'images/mathematical.png' %}" width="250" height="150" style="border-radius: 15px;">
+                    <div class="vdcontent">
+                        <div><img src="{% static 'images/account.webp' %}" height="30px" width="30px" style="position: relative; border-radius:40px ;top: 15px;"></div>
+                     <div> <h4>The Hic Song Full Video</h4>
+                      <p>Viacom 18 sports
+                        <br>517k views 5 days ago
+                      </p></div>
+                    </div>
+                </div>
+                <div class="vid">
+                    <img src="{% static 'images/teach.png' %}" width="250" height="150" style="border-radius: 15px;">
+                    <div class="vdcontent">
+                        <div><img src="{% static 'images/account.webp' %}" height="30px" width="30px" style="position: relative; border-radius:40px ;top: 15px;"></div>
+                     <div> <h4>The Hic Song Full Video</h4>
+                      <p>Viacom 18 sports
+                        <br>517k views 5 days ago
+                      </p></div>
+                    </div>
+                </div>
+            
+           </div>
+        </div>
+    </section>
+</div>
+
+
+
+
+
+   </body>
+</html>

@@ -1,0 +1,162 @@
+
+/* Main Container */
+
+.container{
+    width: 100%;
+    height: 100%;
+  
+}
+
+/* Header */
+
+.header{
+    width: 100%;
+    height: 60px;
+    
+    padding: 0px;
+   
+}
+.logo{
+    width: 100px;
+    height: 50px;
+    
+    left: 70px;
+    position: absolute;
+
+}
+.search{
+    height: 60px;
+    width: 600px;
+    position: absolute;
+    left: 360px;
+}
+::placeholder{
+    font-size: 18px;
+    left: 10px;
+    position: relative;
+    color: rgb(158, 152, 152);
+}
+.mic{
+    background-color: rgb(243, 250, 250);
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    position: relative;
+    left: 950px;
+    top: 10px;
+    text-align: center;
+}
+.notification{
+    display: flex;
+    position: relative;
+    float: right;
+    height: 60px;
+    width: 200px;
+    top: -40px;
+    gap: 15px;
+    padding-left: 10px;
+}
+.notification_round{
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    position: relative;
+    text-align: center;
+    top: 10px;
+}
+
+/* Main Part */
+
+.container-wrapper{
+    height: auto;
+    width: 100%;
+ 
+
+}
+.side-bar{
+    height: auto;
+    width: 230px;
+  
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    position: fixed;
+    row-gap: 10px;
+}
+.side{
+    
+    height: 40px;
+    padding-left: 15px;
+    
+   
+}
+.main{
+    height: auto;
+    width: 1050px;
+    left: 250px;
+    position: absolute;
+    top: 120px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    column-gap: 15px;
+    row-gap: 50px;
+    padding: 20px;
+   
+}
+.vid{
+    height: 270px;
+    width: 250px;
+}
+h4{
+    padding-left: 10px;
+}
+p{
+    padding-left: 10px;
+    color: rgb(104, 103, 102);
+   
+}
+.vdcontent{
+    display: grid;
+    height: auto;
+    width: 240px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+.top-bar{
+    height: 40px;
+    position: fixed;
+    width: 1080px;
+    left: 260px;
+    display: flex;
+    gap: 10px;
+    z-index: 1;
+    top: 80px;
+
+}
+.top-bar-flx{
+    background-color: rgb(243, 240, 237);
+    height: 20px;
+    width: auto;
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: middle;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  
+}
+.line{
+    height: 1px;
+    width: auto;
+    background-color: rgb(230, 233, 233);
+}
+h3{
+    display: inline;
+    padding-left: 20px;
+    font-weight: 300;
+    font-family: Roboto;
+    font-size: 18px;
+}
+
