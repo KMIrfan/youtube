@@ -1,3 +1,8 @@
+body{
+    font-family:Roboto,Arial, sans-serif;
+   
+}
+
 
 /* Main Container */
 
@@ -32,6 +37,26 @@
     width: 600px;
     position: absolute;
     left: 360px;
+}
+.searchimg{
+    height: 37px;
+    width: 60px;
+    background-color: rgb(240, 243, 243);
+    position: fixed;
+    left: 895px;
+    top: 18px;
+    border-radius: 0 20px 20px 0px;
+    border: 1px rgb(201, 199, 199) solid;
+}
+.searchimg:hover{
+    height: 37px;
+    width: 60px;
+    background-color: rgb(219, 224, 224);
+    position: fixed;
+    left: 895px;
+    top: 18px;
+    border-radius: 0 20px 20px 0px;
+    border: 1px rgb(201, 199, 199) solid;
 }
 ::placeholder{
     font-size: 18px;
@@ -86,6 +111,7 @@
     grid-template-rows: auto auto;
     position: fixed;
     row-gap: 10px;
+    
 }
 .side{
     height: 40px;
@@ -117,10 +143,12 @@
 }
 h4{
     padding-left: 10px;
+    font-size: 15px;
 }
 p{
     padding-left: 10px;
     color: rgb(104, 103, 102);
+    font-size: 12px;
    
 }
 .vdcontent{
@@ -151,7 +179,20 @@ p{
     vertical-align: middle;
     padding-top: 5px;
     padding-bottom: 5px;
+    font-size: 14px;
   
+}
+.top-bar-flx:hover{
+    
+    height: 20px;
+    width: auto;
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: middle;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(228, 231, 235);
 }
 .line{
     height: 1px;
@@ -161,8 +202,11 @@ p{
 h3{
     display: inline;
     padding-left: 20px;
-    font-weight: 300;
-    font-family: Roboto;
-    font-size: 18px;
+    font-weight: 500;
+    font-family:Roboto,Arial, sans-serif;
+    font-size: 14px;
 }
-
+a{
+    text-decoration: none;
+    color: black;
+}
